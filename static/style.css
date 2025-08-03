@@ -1,20 +1,22 @@
 body {
-    background: #09001d;
-    color: #00ffff;
+    background: #052b30;
+    color: #cefcf9;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 
 p {
-    color: #aafff4;
+    color: #a6c0c2;
+    
 }
 
 #con-temp {
-    border: solid 2px white;
-    background: #12002e;
+    background: #195b64;
     width: 90vw;
     width: 90dvw;
     display: flex;
@@ -22,6 +24,7 @@ p {
     justify-content: space-around;
     align-items: center;
     min-height: 100px;
+    border-radius: 15px;
     
 }
 
@@ -30,7 +33,6 @@ p {
     height: 10vh;
     height: 10dvh;
     width: 90%;
-    border: solid 1px #6500ff;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -38,14 +40,18 @@ p {
     align-items: center;
     text-align: center;
     margin: 10px 0px 10px 0px;
+    background: #3395a1;
+    color:rgb(22, 33, 39);
+    font-size: large;
+    
 }
+    
 
 .capitulos {
 
     height: 10vh;
     height: 10dvh;
     width: 90%;
-    border: solid 1px #6500ff;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -53,12 +59,15 @@ p {
     align-items: center;
     text-align: center;
     margin: 10px 0px 10px 0px;
+    background: #3395a1;
+    color:rgb(22, 33, 39);
+    
 }
 
 .cap {
-    height: 90%;
+    height: 100%;
     width: 90%;
-    border: solid 1px;
+    border: solid #195b64;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,29 +77,27 @@ p {
 }
 
 #tc {
-    border-width: 0px 0px 0px 1px;
+    border-width: 0px 0px 0px 5px;
 }
 
 #nc {
-    border-width: 0px 1px 0px 0px;
+    
     width: 20%;
-    color: #6affb6;
+    color: #75ddfd;
     font-weight: bold;
+    background: #227c88;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
 }
 
 #con-vid {
     background: #0b001c ;
     border-radius: 15px;
-    border: solid 1px white;
-    width: 60vw;
-    height: 48vw;
     width: 90dvw;
     height: 80dvw;
 }
 
 #con-titulo-vid {
-    height: 10vh;
-    height: 10dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,14 +110,21 @@ p {
 } 
 
 h3 {
-    color: #6affcb;
+    color: #87deee;
+    text-align: left;
+    width: 90%;
 } 
 
 #atras {
-    background: #6affcb;
+    background: #6afff8;
     border-radius: 20px;
     height: 30px;
     width: 70px;
     color: #09001d;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }  
