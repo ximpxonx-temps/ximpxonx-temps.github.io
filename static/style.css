@@ -82,8 +82,8 @@ p {
     background: #0b001c ;
     border-radius: 15px;
     border: solid 1px white;
-    width: 90vw;
-    height: 80vw;
+    width: 60vw;
+    height: 48vw;
     width: 90dvw;
     height: 80dvw;
 }
@@ -96,7 +96,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: left;
-    width: 90vw;
+    width: 60vw;
     width: 90dvw;
     border: solid grey ;
     border-width: 0px 0px 1px 0px;
