@@ -19,7 +19,7 @@ export function capitulosDe(datos) {
               
            
               
-              location.href ='../index.html';
+              location.href ='https://ximpxonx-temps.github.io/';
    
                
               
