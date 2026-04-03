@@ -5,9 +5,15 @@ getElementsByClassName('temporadas');
 export let con_capi = document.getElementById('con-capitulos');
 let ite = document.getElementById('info-temps') ;
 
+let cortina = document.createElement('div');
+cortina.id = 'cortina';
+cortina.innerHTML = 'Cargando...';
+document.body.appendChild(cortina);
+
 window.addEventListener('load', () => {
 
     document.body.classList.add("loaded");
+    document.body.removeChild(cortina);
 
 });
 

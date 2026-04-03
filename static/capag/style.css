@@ -14,6 +14,20 @@ body {
     transition: opacity 0.5s ease;
 }
 
+
+#cortina {
+    background: #052b30;
+    color: #75ddfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    height: 99vh;
+    width: 99vw;
+    text-align: center;
+}
+
 body.loaded {
     opacity: 1;
 }

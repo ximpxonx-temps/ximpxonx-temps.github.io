@@ -6,13 +6,17 @@ let ite = document.getElementById('info-temps') ;
 
 //-----------------------------------------
 
+let cortina = document.createElement('div');
+cortina.id = 'cortina';
+cortina.innerHTML = 'Cargando...';
+document.body.appendChild(cortina);
 
 window.addEventListener('load', () => {
 
     document.body.classList.add("loaded");
+    document.body.removeChild(cortina);
 
 });
-
 
 
 for (let i = 6; i < temps.length+6 ; i++) {
