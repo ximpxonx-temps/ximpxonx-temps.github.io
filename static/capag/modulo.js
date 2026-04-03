@@ -40,8 +40,8 @@ export async function listarCapitulos(t) {
 
               
               
-              document.body.innerHTML = `<h1>Ximpxonx</h1><div id="con-vid"><video src=${url} controls poster="../poster.jpg" width="95%" height="75%" id="vid" >Lo siento mucho, hubo un error.</video><div id="descripcion"><h3 style="text-align:center;">Descripcion:</h3><p>${descripcion[numero[i]]}</p></div></div><div id="con-titulo-vid">${res[numero[i]]}</div><h3>Temp: ${t} Ep: ${numero[i]}</h3>`;
-              
+              document.body.innerHTML = `<h1>Ximpxonx</h1><div id="con-vid"><video src=${url} controls poster="../poster.jpg" width="95%" height="75%" id="vid" >Lo siento mucho, hubo un error.</video><div id="descripcion"><h3 style="text-align:center;">Descripcion:</h3><p id="parrdes">${descripcion[numero[i]]}</p></div></div><div id="con-titulo-vid">${res[numero[i]]}</div><h3>Temp: ${t} Ep: ${numero[i]}</h3>`;
+              document.getElementById('parrdes').style.background = 'none';
                 if (window.innerWidth > window.innerHeight) {
 
                     let vid = document.getElementById('vid') ;
