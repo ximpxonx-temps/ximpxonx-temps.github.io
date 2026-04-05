@@ -37,8 +37,9 @@ body.loaded {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #052b30 ;
+    background: linear-gradient(#021214,#052b30) ;
     border-radius: 15px;
+    padding: 20px 0px 20px 0px;
 }
 
 #portada {
@@ -112,7 +113,8 @@ p {
 
 .capitulos:hover {
    background: #195b64 ; 
-   color: #3395a1 ;
+   color: #75ddfd ;
+   box-shadow: 1px 1px 5px #021214;
 }
 
 
