@@ -57,8 +57,7 @@ export async function listarCapitulos(t) {
                     let desc = document.getElementById('descripcion');
                     desc.style.height = '80%';
                     desc.style.width = '30%';
-                    let por = document.getElementById('portada');
-                    por.style.width = '25%';
+                    
             
             
                 }

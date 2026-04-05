@@ -25,10 +25,14 @@ export function capitulosDe(datos) {
     listarCapitulos(datos);
     
 
-    let con_por = document.createElement('div');
+    let con_por = document.getElementById('con-por');
     con_por.innerHTML = `<img src="./T${datos}/portada.jpg" id="portada" />`;
-    con_por.id = 'con-por';
-    document.body.appendChild(con_por);
+    if (window.innerWidth > window.innerHeight) {
+
+        let por = document.getElementById('portada');
+        por.style.width = '25%';
+
+    }
 
     ite.innerText = `Temporada ${datos}`;
 
