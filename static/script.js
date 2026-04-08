@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
 for (let i = 6; i < temps.length+6 ; i++) {
     
     
-    if (i === 11) {
+    if (i === 11 || i === 13) {
         
         continue;
             
@@ -40,5 +40,6 @@ for (let i = 6; i < temps.length+6 ; i++) {
     }
     
 }
-//bloque que elimina la 11 hasta que podamos integrarla, si es que podemos.
-con_temp.removeChild(temps[5])
+//bloque que elimina la tempoadas que no estan hasta que podamos integrarlas, si es que podemos.
+con_temp.removeChild(temps[7]);
+con_temp.removeChild(temps[5]);
