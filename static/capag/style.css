@@ -11,7 +11,7 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease;
     user-select: none;
-    height: 99.9%;
+    height: 99.9vh;
 }
 
 
